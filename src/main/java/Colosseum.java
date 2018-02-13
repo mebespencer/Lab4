@@ -72,10 +72,11 @@ public class Colosseum {
      *         Implement this function.
      */
     public static Pokemon buildPokemon() {
-
+        
+        Scanner myScan2 = new Scanner(System.in);
         Pokemon tempPokemon = new Pokemon();
         System.out.println("Please name your Pokemon:");
-        tempPokemon.name = myScan.nextLine();
+        tempPokemon.name = myScan2.nextLine();
         int tempHP;
         int tempAttack;
         int tempDefense;
